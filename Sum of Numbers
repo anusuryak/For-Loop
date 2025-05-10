@@ -1,1 +1,10 @@
+package ForLoop;                
+public class SumOfNumbers {
 
+	public static void main(String[] args) {
+		int n=10;
+		int sum=0;
+		 for(int i=1;i<=n;i++) {
+			 sum=sum+i; 
+			 System.out.println(sum);      // output: 1,1+2=3,3+3=6,6+4=10,10+5=15
+		 }
