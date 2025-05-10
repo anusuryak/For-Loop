@@ -1,1 +1,19 @@
+package ForLoop;
+
+//printing 1-10 numbers
+public class numbers {
+	public static void main(String[] args) {
+		int i, n = 10;
+		for (i = 0; i <= n; i++) {
+			System.out.println(i);
+		}
+		// reverse 10-1 numbers
+		System.out.println();
+		int k, m;
+		m = 10;
+		for (k = 0; k <= m; m--) {
+			System.out.println(m);
+		}
+	}
+}
 
